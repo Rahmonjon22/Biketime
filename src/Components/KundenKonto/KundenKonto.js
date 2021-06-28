@@ -48,7 +48,7 @@ function KundenKonto() {
     };
   
     return (
-      <div>
+      <div className="form-container">
         <form className="form" onSubmit={onSubmit}>
           <div className="form-header">
             <h2>Create new Account</h2>
@@ -62,6 +62,7 @@ function KundenKonto() {
               name="username"
               className="form-input"
               placeholder="Enter your username"
+              required
               value={userName}
               onChange={(e) => {
                 setUserName(e.target.value);
@@ -81,6 +82,7 @@ function KundenKonto() {
               name="email"
               className="form-input"
               placeholder="Enter your E-mail"
+              required
               onChange={validateEmail}
             />
             <br/>
@@ -99,6 +101,7 @@ function KundenKonto() {
               name="password"
               className="form-input"
               placeholder="Enter your password"
+              required
             />
           </div>
           <div className="form-inputs">
@@ -108,6 +111,7 @@ function KundenKonto() {
               name="password"
               className="form-input"
               placeholder="Confirm your password"
+              required
             />
           </div>
           <button className="btn" type="submit">
