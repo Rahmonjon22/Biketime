@@ -1,9 +1,14 @@
+body{
+   box-sizing: border-box;
+}
 .contact{
     display: flex;
     flex-flow: column;
     margin: 0 auto ;
     width: 50%;
     text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
 }
 .in{
     text-align: center;
@@ -18,4 +23,19 @@
 .btn{
     margin: 0.5rem;
     padding: 0.5rem;
+}
+.options{
+    
+    padding: 10px;
+}
+.bike-parts{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.bike-parts img{
+    height: auto;
+    width: 100%;
+}
+.bike-h3{
+    color: green;
 }
