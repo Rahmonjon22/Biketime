@@ -46,6 +46,10 @@ function KundenKonto() {
       setUserNameErr(userNameErr);
       return isValid;
     };
+    /************************************************************************************* */
+    //password validation
+
+    
   
     return (
       <div className="form-container">
